@@ -1,3 +1,5 @@
+//Note :- This File is for my understanding purpose not a part of project.
+
 // Include prompt module.
 var prompt = require('prompt');
 
