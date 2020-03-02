@@ -1,3 +1,10 @@
+/*
+Assignment :  Making a Booking Site Application using NodeJS and MongoDB 
+Developer  :  Vaishnavi Bandlamudi
+Mentor     :  Thenarasi Rajendran
+Start Date :  28 Feb 2020
+Update Date:  02 Mar 2020
+*/
 
 //Importing the pacakges.....
 
