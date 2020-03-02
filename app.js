@@ -73,6 +73,23 @@ app.post('/',(req,res)=>{
 
 });
 
+
+//Delete the Data...
+
+app.delete('/:id',(req,res)=>{
+    const userID = req.params.id;
+    db.getDB().collection(collection).findOneAndDelete({_id : db.getPrimaryKey(userID)},(err,result)=>{
+      if(err)
+      {
+          console.log(err);
+      }
+      else
+      {
+          res.json(result);
+      }
+    });
+});
+
 //Connecting and verification of Database
 
 db.connect((err)=>{
